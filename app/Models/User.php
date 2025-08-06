@@ -12,6 +12,7 @@ use Laravel\Sanctum\HasApiTokens;
  * @property int $id
  * @property string $name
  * @property string $email
+ * @property string $password
  * @property Carbon $created_at
  * @property Carbon $updated_at
  *
