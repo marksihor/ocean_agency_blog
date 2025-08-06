@@ -14,6 +14,6 @@ class Controller extends BaseController
 
     protected function success($data): JsonResponse
     {
-        return response()->json(['data' => $data]);
+        return response()->json($data);
     }
 }
